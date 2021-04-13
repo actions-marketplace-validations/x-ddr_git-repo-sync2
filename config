@@ -1,0 +1,6 @@
+Host id_rsa 
+        Hostname github.com 
+        IdentityFile=/root/.ssh/id_rsa 
+Host id_rsa1 
+        Hostname github.com 
+        IdentityFile=/root/.ssh/id_rsa1 
