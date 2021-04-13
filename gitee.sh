@@ -11,6 +11,7 @@ echo "GITHUB=$GITHUB_REPO"
 echo "GITEE=$GITEE_REPO"
 
 git clone --mirror "$GITHUB_REPO" && cd `basename "$GITHUB_REPO"`
+ls 
 git remote set-url --push origin "$GITEE_REPO"
 git fetch -p origin
 git for-each-ref --format 'delete %(refname)' refs/pull | git update-ref --stdin
