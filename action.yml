@@ -1,4 +1,4 @@
-name: 'Sync repository'
+name: 'Sync repository test'
 description: 'Sync to Gitee.'
 branding:
   icon: 'git-branch'
