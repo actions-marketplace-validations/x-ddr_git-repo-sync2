@@ -1,5 +1,5 @@
 name: 'Sync repository'
-description: 'Sync repository to Gitee.'
+description: 'Sync to Gitee.'
 branding:
   icon: 'git-branch'
   color: 'green'
